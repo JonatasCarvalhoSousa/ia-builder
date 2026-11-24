@@ -1,0 +1,16 @@
+# Segredos
+.env
+
+# Ambiente virtual (como o node_modules do JS)
+.venv/
+
+# Caches do Python e do pytest
+__pycache__/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Dados gerados pela Bia (Chroma e CRM local)
+banco_vetorial/
+sdr-bia/dados/crm.json
