@@ -1,6 +1,6 @@
 # CLAUDE.md — IA-builder
 
-Este repositório é o caderno de estudos do Jônatas (Jhow) para vagas de **AI Builder com foco em agentes de vendas**: um **SDR de IA** que conversa com leads, qualifica, agenda reuniões e passa o lead pronto para o vendedor. O case de referência é o mercado de **escritórios flexíveis B2B** (modelo de empresas como a Woba). Leia este arquivo inteiro antes de responder qualquer coisa.
+Este repositório é o caderno de estudos do Jônatas (Jhow) para vagas de **AI Builder com foco em agentes de vendas**: um **SDR de IA** que conversa com leads, qualifica, agenda reuniões e passa o lead pronto para o vendedor. O case de referência é o mercado de **escritórios flexíveis B2B** (empresas que vendem acesso a espaços de trabalho em várias cidades com um contrato único). Leia este arquivo inteiro antes de responder qualquer coisa.
 
 ## Quem eu sou
 
@@ -26,14 +26,14 @@ Meu objetivo é **aprender**, não só terminar os exercícios.
 
 ## Material de estudo
 
-- **Guia principal (atual):** SDR de IA para espaços flexíveis (case Woba): https://claude.ai/artifact/EY3XEDn6voMtGXg8h1RtKs
+- **Guia principal (atual):** SDR de IA para espaços flexíveis B2B: https://claude.ai/artifact/EY3XEDn6voMtGXg8h1RtKs
 - Base técnica (Python, saída estruturada, tool use, RAG; já tem a seção "Usando o Gemini"): https://claude.ai/artifact/XJ4H3dEAtucym5uB87LmES
 - Trilha geral de carreira: https://claude.ai/artifact/3WfwbsUKDAufkgZpGYUVYW
 - Código de referência: Sellbird (https://github.com/ethanplusai/sellbird), agente de prospecção open-source que meu irmão me passou. Bom para ver prompts (`prompts/`), escrita de e-mail (`agents/writer.py`), tratamento de respostas (`agents/handler.py`), guardas (`gate.py`) e defesa contra prompt injection (`untrusted.py`).
 
 ## O projeto: Bia, a SDR de IA da EspaçoFlex
 
-**EspaçoFlex é uma marca fictícia**, com o mesmo modelo de negócio dos escritórios flexíveis B2B: escritórios privativos, estações de trabalho, salas de reunião por hora e espaços para eventos, com contrato único e valor fixo, em várias cidades. Nunca use nome, marca ou dados reais da Woba nem de outra empresa no código, nos prompts ou no README.
+**EspaçoFlex é uma marca fictícia**, com o mesmo modelo de negócio dos escritórios flexíveis B2B: escritórios privativos, estações de trabalho, salas de reunião por hora e espaços para eventos, com contrato único e valor fixo, em várias cidades. Nunca use nome, marca ou dados de empresas reais no código, nos prompts, no README nem neste arquivo (o repositório é público).
 
 | Módulo / etapa | Semanas | O que construir | Pronto quando |
 |---|---|---|---|
@@ -87,7 +87,7 @@ Rode os scripts **de dentro de `sdr-bia/`**, porque os caminhos (`prompts/sdr.md
 
 > Atualize esta seção ao fim de cada sessão de estudo.
 
-- **Guia atual:** SDR de IA (case Woba)
+- **Guia atual:** SDR de IA para espaços flexíveis B2B
 - **Módulo atual:** 1, Conversa (começando)
 - **Já feito antes:** ambiente montado, chave do Gemini funcionando, exercícios iniciais de Python (Pydantic, pytest) em `fase1/exercicios`
 - **Próximo passo:** criar `sdr-bia/prompts/sdr.md` e `sdr-bia/bia.py`, rodar a Bia e fazer os 5 testes de conversa (pergunta única, preço, pedir humano, tom informal, lead fora do perfil)
