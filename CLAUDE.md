@@ -64,7 +64,8 @@ IA-builder/
     ├── ferramentas.py    # tools e RAG (Módulo 3)
     ├── handoff.py        # resumo para o vendedor (Módulo 4)
     ├── dados/            # espacos.json, faq/*.md, crm.json (tudo fictício)
-    ├── evals/            # conversas-modulo1.md, personas.json, rodar.py (Módulo 5)
+    ├── evals/            # testar_prompt.py (rodar: python -m evals.testar_prompt), historico.csv,
+    │                     # resultados/*.json, conversas/*.md; personas.json e rodar.py (Módulo 5)
     └── tests/            # pytest
 ```
 
@@ -88,9 +89,11 @@ Rode os scripts **de dentro de `sdr-bia/`**, porque os caminhos (`prompts/sdr.md
 > Atualize esta seção ao fim de cada sessão de estudo.
 
 - **Guia atual:** SDR de IA para espaços flexíveis B2B
-- **Módulo atual:** 1, Conversa (começando)
-- **Já feito antes:** ambiente montado, chave do Gemini funcionando, exercícios iniciais de Python (Pydantic, pytest) em `fase1/exercicios`
-- **Próximo passo:** criar `sdr-bia/prompts/sdr.md` e `sdr-bia/bia.py`, rodar a Bia e fazer os 5 testes de conversa (pergunta única, preço, pedir humano, tom informal, lead fora do perfil)
+- **Módulo atual:** 2, Qualificação (começando)
+- **Já feito:** ambiente e exercícios iniciais (`fase1/exercicios`). **Módulo 1 concluído (26/11/2026):** `bia.py` com `criar_chat()`, retry e salvamento de conversas; prompt v3; eval automatizado `evals/testar_prompt.py` (7 cenários, checagens em código, histórico por versão) com placar v2 4/7 → v3 **7/7** (3 repetições).
+- **Modelo em uso:** `gemini-3.5-flash-lite`, porque os `flash` maiores estavam dando 503 com frequência. Testar o 3.8-flash de novo quando estabilizar (`--modelo`).
+- **Próximo passo:** Módulo 2: `FichaLead` (Pydantic) + extrator com `response_schema`, depois `pontuar`, `faltando` e `proximo_passo` com testes pytest.
+- **Pendências:** caso do freelancer (resolver com `proximo_passo` = `fora_do_perfil` no Módulo 2); tornar o repo público (configurar e-mail noreply do GitHub e limpar o histórico antes); README curto de status.
 - **Dúvidas em aberto:** —
 
 ### Checklist
@@ -102,7 +105,7 @@ Preparação
 - [ ] Escrever à mão uma conversa ideal SDR x lead (vira exemplo few-shot)
 
 Bia
-- [ ] Módulo 1: chat da Bia + 5 testes de conversa + ajustes no prompt
+- [x] Módulo 1: chat da Bia + eval automatizado (7/7) + prompt v3
 - [ ] Módulo 2: ficha do lead, extrator, nota, próximo passo + testes pytest
 - [ ] Módulo 3: espacos.json, FAQ, ferramentas, RAG e agendamento
 - [ ] Módulo 4: resumo de handoff e mensagem para o vendedor
