@@ -54,6 +54,11 @@ Regra: se eu não consigo explicar com as minhas palavras, ainda não aprendi.
 - **Valide o avaliador.** A 1ª rodada deu 1/7, mas metade das falhas era bug do eval ("Olá!" contando como frase, regex que não conhecia "sem operação"). Antes de confiar no placar, leia as conversas das falhas.
 - **Detecte o erro, não a frase certa.** Existem infinitas formas honestas de dizer "não atendemos lá"; já as formas de inventar ("temos opções em X") são poucas. A checagem fica mais robusta procurando o comportamento proibido.
 - **Não determinismo:** a mesma Bia se apresentou numa rodada e não na outra, no mesmo cenário. Por isso existe `--repeticoes`: um cenário só está aprovado se passa todas as vezes.
+- **Exemplo contradizendo regra:** o prompt dizia "sempre se apresente", mas o exemplo de cidade fora da lista começava com um pedido direto e a Bia respondia sem se apresentar. O modelo seguiu o exemplo, não a regra. Ao escrever few-shot, marque se o exemplo é início ou meio de conversa e confira se ele obedece a TODAS as regras.
+- **Few-shot precisa de texto concreto:** um exemplo com `<placeholders>` não ensina nada; vira só mais uma regra abstrata.
+- **Ajustar o eval é legítimo só quando a especificação estava errada** (ex.: "tudo beleza?" é cumprimento, não pergunta de qualificação). Ajustar para esconder um problema real é trapaça contra você mesmo.
+- **Erro de API ≠ falha do agente:** o eval separa os dois, e um cenário com 0 execuções válidas é "inconclusivo", não "reprovado".
+- **Placar do Módulo 1:** v2 (`ace564a`) 4/7 → v3 (`525ae01`) **7/7** com 3 repetições.
 - **Limite das regras em código:** regex não percebe que a Bia ofereceu mesa avulsa para um freelancer (fora do perfil B2B) nem que ela dispensou um lead de 69 pessoas. Isso precisa de **LLM juiz** com rubrica (Módulo 5).
 
 ## 4. Erros que já cometi e o que aprendi

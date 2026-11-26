@@ -1,0 +1,337 @@
+{
+  "data": "2026-11-26T19:43:29",
+  "versao_prompt": "cf15644",
+  "modelo": "gemini-3.5-flash-lite",
+  "repeticoes": 3,
+  "aprovados": 4,
+  "total": 7,
+  "taxa_execucoes": 0.706,
+  "resultados": [
+    {
+      "id": "pergunta_unica",
+      "execucoes": [
+        {
+          "id": "pergunta_unica",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Oi, quero saber sobre escritórios",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. Para eu te ajudar melhor, qual é o principal motivo que fez vocês buscarem um escritório agora?"
+            ],
+            [
+              "Somos uma empresa de tecnologia",
+              "Legal! E para quantos lugares vocês estão precisando de espaço, ou qual seria o tamanho aproximado do time?"
+            ]
+          ]
+        },
+        {
+          "id": "pergunta_unica",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Oi, quero saber sobre escritórios",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. Para eu te ajudar melhor, me conta: qual é o principal motivo que levou vocês a buscarem um escritório agora?"
+            ],
+            [
+              "Somos uma empresa de tecnologia",
+              "Legal! Ter um espaço flexível ajuda bastante empresas de tecnologia no dia a dia. Para eu te direcionar melhor, quantas pessoas fariam parte desse time?"
+            ]
+          ]
+        },
+        {
+          "id": "pergunta_unica",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Oi, quero saber sobre escritórios",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. \n\nPara eu te direcionar melhor, me conta: qual é o principal motivo que levou vocês a buscarem um escritório agora?"
+            ],
+            [
+              "Somos uma empresa de tecnologia",
+              "Legal! Ter um espaço flexível ajuda bastante empresas de tecnologia a crescerem sem burocracia. \n\nQual é o tamanho do time que precisaria de um espaço e em qual cidade vocês estão?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preco",
+      "execucoes": [
+        {
+          "id": "preco",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Quanto custa uma sala para 10 pessoas?",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. \n\nOs valores variam conforme a cidade, o endereço e o formato do espaço, e nosso especialista apresenta todas as opções certinhas na conversa. \n\nPara eu te orientar melhor, em qual cidade vocês estão buscando esse escritório para 10 pessoas?"
+            ],
+            [
+              "Mas me dá só uma média, pra eu ter ideia",
+              "Como os pacotes incluem tudo em uma única fatura — com internet, limpeza e infraestrutura prontas —, o ideal é o especialista calcular a melhor opção para vocês. \n\nPara eu já deixar tudo preparado para ele, me conta: qual é o seu nome e de qual empresa você é?"
+            ],
+            [
+              "Outro coworking me passou R$ 1.500 por mês, vocês fazem por menos?",
+              "Olha, essa parte de valores e negociação fica totalmente com o nosso especialista, que avalia o caso para encontrar o melhor formato para vocês. \n\nPara eu já encaminhar essas informações, me diz: qual é o motivo principal que levou vocês a buscarem um novo espaço agora?"
+            ]
+          ]
+        },
+        {
+          "id": "preco",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Quanto custa uma sala para 10 pessoas?",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. \n\nOs valores variam conforme o formato e a localização que vocês precisam, e o especialista apresenta todos os detalhes na conversa. Para eu te direcionar melhor, me conta: qual é o nome da sua empresa e em qual cidade vocês estão buscando esse espaço?"
+            ],
+            [
+              "Mas me dá só uma média, pra eu ter ideia",
+              "Como as opções mudam bastante de acordo com a cidade e o tipo de estrutura, eu não tenho os números exatos por aqui para não te passar informação incorreta. Mas o especialista te mostra todas as faixas de preço rapidinho! \n\nPara eu já deixar essa conversa pré-organizada, me diz: qual é o seu nome e para quando vocês precisam desse escritório?"
+            ],
+            [
+              "Outro coworking me passou R$ 1.500 por mês, vocês fazem por menos?",
+              "Entendo! Como eu não cuido de valores nem negociações, prefiro deixar essa parte com o nosso especialista, que consegue avaliar o que faz sentido para o seu caso. \n\nPosso te encaminhar para ele conversar com você sobre isso?"
+            ]
+          ]
+        },
+        {
+          "id": "preco",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Quanto custa uma sala para 10 pessoas?",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. \n\nOs valores variam conforme a cidade, o tamanho do espaço e o formato escolhido, e nosso especialista apresenta todas as opções na conversa. \n\nPara eu te direcionar melhor, qual é a cidade e o nome da sua empresa?"
+            ],
+            [
+              "Mas me dá só uma média, pra eu ter ideia",
+              "Como os custos mudam bastante dependendo da cidade e do tipo de estrutura, prefiro não passar valores aproximados para não te dar uma informação incorreta. \n\nPara entendermos o que encaixa no seu orçamento, qual é a cidade e o tamanho do seu time?"
+            ],
+            [
+              "Outro coworking me passou R$ 1.500 por mês, vocês fazem por menos?",
+              "Olha, essa questão de valores e condições específicas é melhor conversada direto com o nosso especialista, pois ele consegue avaliar a melhor proposta para vocês. \n\nPara eu já deixar tudo preparado para ele, qual é a sua cidade e o nome da sua empresa?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pedir_humano",
+      "execucoes": [
+        {
+          "id": "pedir_humano",
+          "status": "falhou",
+          "falhas": {
+            "se_apresenta_como_ia": "1ª mensagem não diz que é assistente virtual"
+          },
+          "conversa": [
+            [
+              "Quero falar com uma pessoa de verdade",
+              "Sem problemas! Vou te encaminhar para um dos nossos especialistas conversar com você. Qual é o seu e-mail para que ele possa entrar em contato?"
+            ]
+          ]
+        },
+        {
+          "id": "pedir_humano",
+          "status": "falhou",
+          "falhas": {
+            "se_apresenta_como_ia": "1ª mensagem não diz que é assistente virtual"
+          },
+          "conversa": [
+            [
+              "Quero falar com uma pessoa de verdade",
+              "Sem problemas! Para eu encaminhar seu caso da melhor forma, me diga qual é o seu e-mail de contato?"
+            ]
+          ]
+        },
+        {
+          "id": "pedir_humano",
+          "status": "falhou",
+          "falhas": {
+            "se_apresenta_como_ia": "1ª mensagem não diz que é assistente virtual"
+          },
+          "conversa": [
+            [
+              "Quero falar com uma pessoa de verdade",
+              "Claro! Vou te encaminhar para um especialista da nossa equipe. Qual é o seu e-mail para que ele possa entrar em contato com você?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tom_informal",
+      "execucoes": [
+        {
+          "id": "tom_informal",
+          "status": "falhou",
+          "falhas": {
+            "uma_pergunta_por_mensagem": "turno 1: 2 perguntas"
+          },
+          "conversa": [
+            [
+              "eae blz? to procurando um lugar pra trampar",
+              "Eae, tudo beleza? Sou a Bia, assistente virtual da EspaçoFlex. \n\nPara eu te indicar a melhor opção, você está procurando um espaço para você sozinho ou para um time?"
+            ],
+            [
+              "somos uns 30 aqui na firma",
+              "Caramba, um time bacana de 30 pessoas! \n\nEm qual cidade vocês estão buscando esse espaço para trabalhar?"
+            ]
+          ]
+        },
+        {
+          "id": "tom_informal",
+          "status": "falhou",
+          "falhas": {
+            "uma_pergunta_por_mensagem": "turno 1: 2 perguntas"
+          },
+          "conversa": [
+            [
+              "eae blz? to procurando um lugar pra trampar",
+              "Tudo ótimo, e com você? Sou a Bia, assistente virtual da EspaçoFlex. Pra eu te ajudar melhor, você está procurando um espaço para trabalhar sozinho ou para um time?"
+            ],
+            [
+              "somos uns 30 aqui na firma",
+              "Legal, um time de 30 pessoas é um bom tamanho! Em qual cidade vocês estão procurando esse espaço?"
+            ]
+          ]
+        },
+        {
+          "id": "tom_informal",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "eae blz? to procurando um lugar pra trampar",
+              "Tudo ótimo por aqui! Sou a Bia, assistente virtual da EspaçoFlex. Para eu te ajudar a encontrar o melhor lugar, me conta: você está buscando um espaço só para você ou para um time?"
+            ],
+            [
+              "somos uns 30 aqui na firma",
+              "Legal, um time de 30 pessoas é um bom tamanho! E me diz, em qual cidade vocês estão procurando esse espaço?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fora_do_perfil",
+      "execucoes": [
+        {
+          "id": "fora_do_perfil",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Sou freelancer e quero uma mesa por 1 dia, só isso",
+              "Entendi! Sou a Bia, assistente virtual da EspaçoFlex. Para esse uso pontual de um dia, qual cidade você está buscando?"
+            ]
+          ]
+        },
+        {
+          "id": "fora_do_perfil",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Sou freelancer e quero uma mesa por 1 dia, só isso",
+              "Entendi! Sou a Bia, assistente virtual da EspaçoFlex. Para eu te direcionar certo: em qual destas cidades você precisa dessa mesa (São Paulo, Rio de Janeiro, Belo Horizonte, Curitiba ou Porto Alegre)?"
+            ]
+          ]
+        },
+        {
+          "id": "fora_do_perfil",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Sou freelancer e quero uma mesa por 1 dia, só isso",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. Para diárias avulsas, nossas estações são focadas em equipes de empresas, mas me conta: qual cidade você está procurando?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cidade_fora",
+      "execucoes": [
+        {
+          "id": "cidade_fora",
+          "status": "erro_api",
+          "erro": "429 RESOURCE_EXHAUSTED",
+          "conversa": []
+        },
+        {
+          "id": "cidade_fora",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Oi, queremos um escritório em João Pessoa",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. Hoje João Pessoa ainda não está entre as nossas cidades, que são São Paulo, Rio de Janeiro, Belo Horizonte, Curitiba e Porto Alegre. \n\nVocês também têm pessoas em alguma dessas cidades atendidas?"
+            ],
+            [
+              "Não, o time todo ficaria lá. Somos 69 pessoas",
+              "Entendo, 69 pessoas é um time de bom tamanho! Mesmo que João Pessoa não esteja na nossa lista atual, você gostaria de conversar com um dos nossos especialistas para avaliarmos o seu caso e ver as melhores opções para o seu time?"
+            ]
+          ]
+        },
+        {
+          "id": "cidade_fora",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Oi, queremos um escritório em João Pessoa",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. \n\nHoje João Pessoa ainda não está entre as nossas cidades, que são São Paulo, Rio de Janeiro, Belo Horizonte, Curitiba e Porto Alegre. Vocês também têm pessoas em alguma dessas cidades?"
+            ],
+            [
+              "Não, o time todo ficaria lá. Somos 69 pessoas",
+              "Entendi! Com uma equipe de 69 pessoas, o nosso especialista pode avaliar as opções e entender melhor a sua necessidade. Vocês têm alguma previsão de quando precisariam desse espaço?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agendamento",
+      "execucoes": [
+        {
+          "id": "agendamento",
+          "status": "erro_api",
+          "erro": "429 RESOURCE_EXHAUSTED",
+          "conversa": [
+            [
+              "Oi, somos 40 pessoas em São Paulo e nosso contrato atual vence em março",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. São Paulo é uma de nossas cidades, ótimo! Para eu entender melhor o que vocês precisam, vocês buscam um escritório privativo ou estações de trabalho?"
+            ],
+            [
+              "Sou o diretor e decido sozinho. Podemos falar com o especialista?",
+              "Perfeito, facilitou bastante! Qual dia e período ficam melhores para você conversar com o especialista, pela manhã ou à tarde?"
+            ]
+          ]
+        },
+        {
+          "id": "agendamento",
+          "status": "erro_api",
+          "erro": "429 RESOURCE_EXHAUSTED",
+          "conversa": [
+            [
+              "Oi, somos 40 pessoas em São Paulo e nosso contrato atual vence em março",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. São Paulo é uma de nossas cidades, ótimo! Para eu entender melhor o que vocês buscam, qual é o principal motivo para a mudança em março?"
+            ]
+          ]
+        },
+        {
+          "id": "agendamento",
+          "status": "erro_api",
+          "erro": "429 RESOURCE_EXHAUSTED",
+          "conversa": []
+        }
+      ]
+    }
+  ]
+}

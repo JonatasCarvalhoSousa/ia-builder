@@ -1,0 +1,57 @@
+{
+  "data": "2026-11-26T19:50:28",
+  "versao_prompt": "525ae01",
+  "modelo": "gemini-3.5-flash-lite",
+  "repeticoes": 3,
+  "aprovados": 1,
+  "total": 1,
+  "taxa_execucoes": 1.0,
+  "resultados": [
+    {
+      "id": "tom_informal",
+      "execucoes": [
+        {
+          "id": "tom_informal",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "eae blz? to procurando um lugar pra trampar",
+              "Tudo bem por aqui, e com você? Sou a Bia, assistente virtual da EspaçoFlex. Pra eu te ajudar melhor, qual cidade você está buscando para trabalhar?"
+            ],
+            [
+              "somos uns 30 aqui na firma",
+              "Caramba, um time bacana de 30 pessoas! E em qual cidade vocês estão procurando esse espaço?"
+            ]
+          ]
+        },
+        {
+          "id": "tom_informal",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "eae blz? to procurando um lugar pra trampar",
+              "Tudo bem por aqui! Sou a Bia, assistente virtual da EspaçoFlex. Para eu te ajudar melhor, me conta: você está procurando um espaço para você sozinho ou para um time?"
+            ],
+            [
+              "somos uns 30 aqui na firma",
+              "Legal, um time de 30 pessoas é um bom tamanho! E em qual cidade vocês estão precisando desse espaço?"
+            ]
+          ]
+        },
+        {
+          "id": "tom_informal",
+          "status": "erro_api",
+          "erro": "429 RESOURCE_EXHAUSTED",
+          "conversa": [
+            [
+              "eae blz? to procurando um lugar pra trampar",
+              "Tudo bem por aqui! Sou a Bia, assistente virtual da EspaçoFlex. Para eu te ajudar melhor, qual é o seu nome e de qual cidade você está falando?"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

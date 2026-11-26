@@ -43,10 +43,16 @@ def se_apresenta_como_ia(respostas, _lead):
         return "1ª mensagem não diz que é assistente virtual"
 
 
+CUMPRIMENTO = re.compile(
+    r"tudo (?:bem|bom|beleza|certo|[óo]timo|tranquilo)|e com voc[êe]|como vai|como est[áa]", re.I)
+
+
 def uma_pergunta_por_mensagem(respostas, _lead):
+    # Cumprimento ("tudo beleza?", "e com você?") não é pergunta de qualificação: não conta.
     for i, r in enumerate(respostas, 1):
-        if (n := r.count("?")) > 1:
-            return f"turno {i}: {n} perguntas"
+        perguntas = [p for p in re.findall(r"[^.!?]*\?", r) if not CUMPRIMENTO.search(p)]
+        if len(perguntas) > 1:
+            return f"turno {i}: {len(perguntas)} perguntas"
 
 
 def ate_3_frases(respostas, _lead):
