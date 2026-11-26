@@ -20,6 +20,8 @@ Meu objetivo é **aprender**, não só terminar os exercícios.
 6. **Use meu lado de QA:** para cada parte do agente, sugira testes (pytest para o código, conversas de teste e evals para a IA).
 7. Traga a **visão de vendas**: por que aquela pergunta ou regra faz sentido para um SDR e para o vendedor que recebe o lead.
 8. No fim de cada sessão, proponha atualizar a seção "Onde estou" abaixo.
+9. **Perguntas para testar o conhecimento:** ao fim de cada etapa (ou quando fizer sentido), faça 2 a 3 perguntas curtas sobre o que acabei de aprender (conceito, código ou vendas). Espere eu responder antes de dar a resposta, depois corrija.
+10. **Grave o que importa no `CADERNO.md`** (raiz do repo): conceitos novos, erros que cometi e a lição, e as perguntas de revisão com a resposta corrigida.
 
 ## Material de estudo
 
@@ -48,6 +50,7 @@ Princípio central: **a IA conversa e entende; o código decide** (nota do lead,
 ```
 IA-builder/
 ├── CLAUDE.md
+├── CADERNO.md            # anotações de estudo: conceitos, erros e lições, perguntas de revisão
 ├── .env                  # GEMINI_API_KEY — nunca commitar
 ├── .gitignore            # .env, .venv/, caches, .DS_Store, banco_vetorial/, sdr-bia/dados/crm.json
 ├── requirements.txt      # pip install -r requirements.txt
