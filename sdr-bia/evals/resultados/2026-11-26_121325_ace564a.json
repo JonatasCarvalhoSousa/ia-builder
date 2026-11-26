@@ -1,0 +1,159 @@
+{
+  "data": "2026-11-26T12:13:25",
+  "versao_prompt": "ace564a",
+  "modelo": "gemini-3.5-flash-lite",
+  "repeticoes": 1,
+  "aprovados": 3,
+  "total": 7,
+  "taxa_execucoes": 0.429,
+  "resultados": [
+    {
+      "id": "pergunta_unica",
+      "execucoes": [
+        {
+          "id": "pergunta_unica",
+          "status": "falhou",
+          "falhas": {
+            "uma_pergunta_por_mensagem": "turno 1: 2 perguntas"
+          },
+          "conversa": [
+            [
+              "Oi, quero saber sobre escritórios",
+              "Olá! Tudo bem? Sou a Bia, assistente virtual da EspaçoFlex. Para eu te ajudar melhor: qual é o motivo da sua busca por um escritório agora?"
+            ],
+            [
+              "Somos uma empresa de tecnologia",
+              "Legal! Para quantas pessoas vocês estão precisando desse espaço?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preco",
+      "execucoes": [
+        {
+          "id": "preco",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Quanto custa uma sala para 10 pessoas?",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. Os valores exatos e opções para 10 pessoas variam conforme a localização e o formato, e o especialista apresenta tudo isso na conversa. \n\nPara eu te direcionar melhor, me conta: qual é o seu nome e de qual cidade você está falando?"
+            ],
+            [
+              "Mas me dá só uma média, pra eu ter ideia",
+              "Como os custos mudam bastante dependendo da cidade e do tipo de espaço que você precisa, prefiro não arriscar um número que não se encaixe na sua realidade. \n\nPara que eu possa te ajudar a entender se faz sentido para vocês, qual é a sua empresa e o motivo da busca por esse espaço agora?"
+            ],
+            [
+              "Outro coworking me passou R$ 1.500 por mês, vocês fazem por menos?",
+              "Entendo a busca pelo melhor custo-benefício! Sobre valores, descontos e negociações, o especialista é quem consegue avaliar a melhor proposta para o seu time na nossa conversa. \n\nPara eu já deixar tudo preparado para ele, qual é o seu nome e em qual cidade você está buscando esse espaço?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pedir_humano",
+      "execucoes": [
+        {
+          "id": "pedir_humano",
+          "status": "falhou",
+          "falhas": {
+            "se_apresenta_como_ia": "1ª mensagem não diz que é assistente virtual"
+          },
+          "conversa": [
+            [
+              "Quero falar com uma pessoa de verdade",
+              "Sem problemas! Vou te encaminhar para um dos nossos especialistas conversar com você. Qual é o seu e-mail para que ele possa entrar em contato?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tom_informal",
+      "execucoes": [
+        {
+          "id": "tom_informal",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "eae blz? to procurando um lugar pra trampar",
+              "Tudo bem por aqui! Sou a Bia, assistente virtual da EspaçoFlex. Para eu te ajudar melhor: qual é o seu nome e de qual cidade você está falando?"
+            ],
+            [
+              "somos uns 30 aqui na firma",
+              "Legal, um time de 30 pessoas é um bom tamanho! Qual é o nome da sua empresa e o motivo principal de vocês estarem buscando um espaço novo agora?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fora_do_perfil",
+      "execucoes": [
+        {
+          "id": "fora_do_perfil",
+          "status": "falhou",
+          "falhas": {
+            "se_apresenta_como_ia": "1ª mensagem não diz que é assistente virtual"
+          },
+          "conversa": [
+            [
+              "Sou freelancer e quero uma mesa por 1 dia, só isso",
+              "Entendi! Temos opções de estações de trabalho avulsas que podem te atender super bem. Em qual cidade você está procurando essa mesa?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cidade_fora",
+      "execucoes": [
+        {
+          "id": "cidade_fora",
+          "status": "falhou",
+          "falhas": {
+            "se_apresenta_como_ia": "1ª mensagem não diz que é assistente virtual"
+          },
+          "conversa": [
+            [
+              "Oi, queremos um escritório em João Pessoa",
+              "Hoje João Pessoa ainda não está entre as nossas cidades, que são São Paulo, Rio, BH, Curitiba e Porto Alegre. Vocês também têm pessoas em alguma dessas cidades?"
+            ],
+            [
+              "Não, o time todo ficaria lá. Somos 69 pessoas",
+              "Entendi! Mesmo que João Pessoa não esteja na nossa lista hoje, o nosso especialista pode avaliar o caso com você para ver como podemos ajudar. Como prefere ser chamado(a) e qual é a sua empresa?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agendamento",
+      "execucoes": [
+        {
+          "id": "agendamento",
+          "status": "passou",
+          "falhas": {},
+          "conversa": [
+            [
+              "Oi, somos 40 pessoas em São Paulo e nosso contrato atual vence em março",
+              "Olá! Sou a Bia, assistente virtual da EspaçoFlex. \n\nEntendi, um time de 40 pessoas em São Paulo com mudança prevista para março é um ótimo projeto! Para eu direcionar melhor, qual é o seu nome e o da sua empresa?"
+            ],
+            [
+              "Sou o diretor e decido sozinho. Podemos falar com o especialista?",
+              "Com certeza, perfeito! Para que o especialista possa alinhar tudo com você, qual dia e período ficam melhores para essa conversa, manhã ou tarde?"
+            ],
+            [
+              "Pode marcar amanhã às 10h então",
+              "Entendido a preferência por amanhã pela manhã! Como eu não mexo diretamente na agenda, qual é o seu e-mail para contato? O especialista vai te escrever para confirmar o horário exato."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

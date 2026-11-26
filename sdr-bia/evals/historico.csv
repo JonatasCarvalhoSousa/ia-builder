@@ -1,0 +1,3 @@
+data,versao_prompt,modelo,repeticoes,aprovados,total,taxa_execucoes
+2026-11-26 12:10,ace564a,gemini-3.5-flash-lite,1,4,7,0.57
+2026-11-26 12:13,ace564a,gemini-3.5-flash-lite,1,3,7,0.43

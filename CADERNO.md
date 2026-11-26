@@ -34,6 +34,9 @@ Regra: se eu não consigo explicar com as minhas palavras, ainda não aprendi.
 - A Bia **qualifica e agenda**. Não fecha negócio, não fala de preço.
 - Uma pergunta por mensagem, até 3 frases, conectar com o que o lead disse.
 - Nunca finge ser humana; sempre oferece saída para uma pessoa.
+- **Lacuna no prompt vira invenção:** se o prompt não diz em quais cidades a empresa atua, o modelo inventa uma resposta plausível ("temos ótimas opções em João Pessoa"). Tudo o que a Bia precisa afirmar tem que vir do prompt ou de uma ferramenta.
+- **Alucinação de ação:** sem ferramenta de agenda, a Bia disse "tudo anotado, agendado". O modelo *descreve* ações que não executou. A solução definitiva é ferramenta + código (Módulo 3); até lá, o prompt deixa claro o que ela não consegue fazer.
+- **Onde corrigir cada problema:** prompt (estilo, regras, informações fixas), ferramenta (dados e ações reais), código (validação, regras de negócio). Saber escolher é o trabalho do AI Builder.
 
 ## 3. Técnico (Python + Gemini)
 
@@ -42,6 +45,16 @@ Regra: se eu não consigo explicar com as minhas palavras, ainda não aprendi.
 - **Diagnóstico antes de opinião (2026-11-26):** testei vários modelos com o mesmo "ok". Os `flash` grandes (3.5 a 3.8) davam 503, enquanto os `flash-lite` (3.5-lite, 3.1-lite) respondiam. Modelo mais procurado = mais 503. Ter uma lista de modelos reserva resolve.
 - **Resiliência:** `types.HttpRetryOptions` (tentar de novo com espera crescente) + `try/except errors.APIError` (não derrubar o chat) + modelo reserva.
 - **Memória do chat:** a API não lembra nada; o objeto `chat` guarda o histórico e reenvia tudo a cada `send_message`.
+- **`if __name__ == "__main__":`** roda o bloco só quando o arquivo é executado direto, não quando é importado. Assim o eval importa `criar_chat` do `bia.py` e testa **a mesma configuração** do chat (nunca uma cópia).
+- **`python -m evals.testar_prompt`**: roda como módulo a partir da pasta atual, então `from bia import ...` funciona.
+
+## 3.1 Evals (o que aprendi construindo o `evals/testar_prompt.py`)
+
+- **Eval automatizado** = cenários roteirizados + checagens em código + placar salvo por versão do prompt (hash). Mudou o prompt, roda de novo e compara no `evals/historico.csv`.
+- **Valide o avaliador.** A 1ª rodada deu 1/7, mas metade das falhas era bug do eval ("Olá!" contando como frase, regex que não conhecia "sem operação"). Antes de confiar no placar, leia as conversas das falhas.
+- **Detecte o erro, não a frase certa.** Existem infinitas formas honestas de dizer "não atendemos lá"; já as formas de inventar ("temos opções em X") são poucas. A checagem fica mais robusta procurando o comportamento proibido.
+- **Não determinismo:** a mesma Bia se apresentou numa rodada e não na outra, no mesmo cenário. Por isso existe `--repeticoes`: um cenário só está aprovado se passa todas as vezes.
+- **Limite das regras em código:** regex não percebe que a Bia ofereceu mesa avulsa para um freelancer (fora do perfil B2B) nem que ela dispensou um lead de 69 pessoas. Isso precisa de **LLM juiz** com rubrica (Módulo 5).
 
 ## 4. Erros que já cometi e o que aprendi
 

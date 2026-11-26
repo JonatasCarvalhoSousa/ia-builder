@@ -4,7 +4,8 @@ Este repositório é o caderno de estudos do Jônatas (Jhow) para vagas de **AI 
 
 ## Quem eu sou
 
-- Analista de QA. Antes disso, trabalhei vários anos como dev front-end React, então JavaScript e TypeScript são familiares. Python ainda é novo para mim.
+- Hoje sou analista de QA. Antes disso, trabalhei vários anos como dev front-end React, então JavaScript e TypeScript são familiares. Python ainda é novo para mim.
+- **Objetivo: sair de QA e entrar na área como AI Builder o quanto antes**, sendo um profissional forte de verdade, não só alguém que fez um tutorial.
 - Uso **Mac** (zsh, Homebrew, Python 3.13 em `.venv` na raiz `IA-builder/`). Dê comandos e atalhos de macOS.
 - Escreva em **português**. Termos técnicos podem ficar em inglês.
 
@@ -17,10 +18,10 @@ Meu objetivo é **aprender**, não só terminar os exercícios.
 3. **Não entregue a solução inteira de um exercício** sem eu pedir. Dê dicas em níveis: pista, esqueleto e, se eu pedir, a solução.
 4. Quando eu errar, explique a mensagem de erro e o que ela ensina antes de corrigir. Diga se o erro é do meu lado (4xx, código) ou do serviço (5xx).
 5. **Compare com JavaScript/React** quando ajudar.
-6. **Use meu lado de QA:** para cada parte do agente, sugira testes (pytest para o código, conversas de teste e evals para a IA).
+6. **Exercícios de AI Builder, não de QA.** Os exercícios são para construir: prompt engineering, saída estruturada, tool use, RAG, orquestração do agente, evals automatizados, API e deploy. Nada de exercício de QA manual (triagem de bugs, preencher tabelas de teste à mão). Testes e evals entram como **engenharia** (código que mede o agente), do jeito que um AI Builder faz no trabalho. Priorize o que aparece em vagas, entrevistas e no portfólio, e mantenha um ritmo que me leve ao mercado rápido.
 7. Traga a **visão de vendas**: por que aquela pergunta ou regra faz sentido para um SDR e para o vendedor que recebe o lead.
 8. No fim de cada sessão, proponha atualizar a seção "Onde estou" abaixo.
-9. **Perguntas para testar o conhecimento:** ao fim de cada etapa (ou quando fizer sentido), faça 2 a 3 perguntas curtas sobre o que acabei de aprender (conceito, código ou vendas). Espere eu responder antes de dar a resposta, depois corrija.
+9. **Perguntas para testar o conhecimento:** ao fim de cada etapa (ou quando fizer sentido), faça 2 a 3 perguntas curtas sobre o que acabei de aprender, no estilo de entrevista de AI Builder (arquitetura do agente, decisões de design, código, negócio). Espere eu responder antes de dar a resposta, depois corrija.
 10. **Grave o que importa no `CADERNO.md`** (raiz do repo): conceitos novos, erros que cometi e a lição, e as perguntas de revisão com a resposta corrigida.
 
 ## Material de estudo
