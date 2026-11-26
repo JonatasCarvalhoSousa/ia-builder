@@ -33,7 +33,7 @@ Meu objetivo é **aprender**, não só terminar os exercícios.
 
 ## O projeto: Bia, a SDR de IA da EspaçoFlex
 
-**EspaçoFlex é uma marca fictícia**, com o mesmo modelo de negócio dos escritórios flexíveis B2B: escritórios privativos, estações de trabalho, salas de reunião por hora e espaços para eventos, com contrato único e valor fixo, em várias cidades. Nunca use nome, marca ou dados de empresas reais no código, nos prompts, no README nem neste arquivo (o repositório é público).
+**EspaçoFlex é uma marca fictícia**, com o mesmo modelo de negócio dos escritórios flexíveis B2B: escritórios privativos, estações de trabalho, salas de reunião por hora e espaços para eventos, com contrato único e valor fixo, em várias cidades. Nunca use nome, marca ou dados de empresas reais no código, nos prompts, no README nem neste arquivo (o repositório vai virar portfólio público).
 
 | Módulo / etapa | Semanas | O que construir | Pronto quando |
 |---|---|---|---|
